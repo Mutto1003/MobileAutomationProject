@@ -5,6 +5,10 @@
 - mvn -version
 - mvn clean install
 
+### Install TestNG via Maven
+- add dependency in pom.xml
+- mvn clean install
+
 ### Extensions
 - Language Support for Java(TM) by Red Hat
 - Debugger for Java
