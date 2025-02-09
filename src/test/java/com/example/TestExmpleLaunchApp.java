@@ -14,7 +14,7 @@ public class TestExmpleLaunchApp {
     private AppiumDriver driver;
 
     @SuppressWarnings("deprecation")
-		@BeforeClass
+	@BeforeClass
     public void setup() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");

@@ -18,7 +18,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Selenium WebDriver Dependency -->
+      <!-- Selenium WebDriver Dependency -->
       <dependency>
           <groupId>org.seleniumhq.selenium</groupId>
           <artifactId>selenium-java</artifactId>
@@ -32,6 +32,7 @@
           <version>8.3.0</version>
       </dependency>
 
+      <!-- WEB -->
       <dependency>
         <groupId>io.github.bonigarcia</groupId>
         <artifactId>webdrivermanager</artifactId>
