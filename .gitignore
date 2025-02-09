@@ -2,6 +2,7 @@
 .gradle/
 build/
 app/
+target/
 
 # Local configuration file (sdk path, etc)
 local.properties
