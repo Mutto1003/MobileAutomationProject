@@ -6,8 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class TestExampleNew {
-
+public class TestExmpleLaunchWeb {
+    // Open Web
     @Test
     public void openGoogle() {
       // ใช้ WebDriverManager เพื่อจัดการ ChromeDrive

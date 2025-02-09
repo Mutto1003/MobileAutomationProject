@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.37 s <<< FAILURE! -- in TestSuite
-com.example.TestExampleNew.openGoogle -- Time elapsed: 12.25 s <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.677 s <<< FAILURE! -- in TestSuite
+com.example.TestExampleNew.openGoogle -- Time elapsed: 1.547 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
 Current browser version is 133.0.6943.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: 'Panithans-MacBook-Air.local', ip: '2403:6200:8841:e851:7455:5ec5:5ac6:11d%en0'
+Host info: host: 'Panithans-MacBook-Air.local', ip: '2403:6200:8841:e851:840e:f081:deb3:dca1%en0'
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -22,7 +22,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
 	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
 	at com.example.TestExampleNew.openGoogle(TestExampleNew.java:16)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)

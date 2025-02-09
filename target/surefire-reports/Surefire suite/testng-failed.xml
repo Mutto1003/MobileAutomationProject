@@ -3,11 +3,11 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.example.TestExampleNew">
+      <class name="com.example.TestExmpleLaunchWeb">
         <methods>
           <include name="openGoogle"/>
         </methods>
-      </class> <!-- com.example.TestExampleNew -->
+      </class> <!-- com.example.TestExmpleLaunchWeb -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
