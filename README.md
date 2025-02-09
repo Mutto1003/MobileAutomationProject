@@ -14,6 +14,7 @@
 ### Run case
 - mvn test
 - mvn -Dtest=com.example.TestExampleNew test
+- mvn -Dtest=com.example.{{File.name}} test
 
 ### pom.xml
 
